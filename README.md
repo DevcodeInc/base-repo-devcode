@@ -1,20 +1,22 @@
-# Curso XXX
+## Curso XXX
 
-## Sofware
+#### Requerimientos iniciales
+Software | Versión 
+------------ | ------------- 
+[nodejs][1] | v4.3
 
-
-## Instalación
-
-Pasos de instalación
-
+#### Crear Proyecto
 ```sh
-$ mkdir pemopi-unsm && cd pemopi-unsm
-$ git clone https://github.com/evervasquez/xxxx.git
-$ virtualenv -p python3.4 .
-$ source bin/activate
+$ mkdir rest-devcode
+$ cd xxx-devcode
+$ git clone 'https://github.com/DevcodeInc/xxxxx.git'
 ```
+
 
 #### Iniciar
 ```sh
 $ (pemopi) python manage.py runserver --settings=pemopi.settings.local
 ```
+
+
+[1]: https://nodejs.org/es/
